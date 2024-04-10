@@ -15,7 +15,7 @@
 
         stage('Build') {
             steps {
-                sh 'dotnet build devops_assignment.csproj --configuration Release'
+                sh 'dotnet build devops_assignment/devops_assignment.csproj --configuration Release'
             }
         }
 
